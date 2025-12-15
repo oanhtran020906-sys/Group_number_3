@@ -1,0 +1,66 @@
+# ============ LINE ENDINGS ============
+# Normalize line endings for text files
+*.py text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.toml text eol=lf
+
+# ============ BINARY FILES ============
+# Treat these as binary (no line ending conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.ico binary
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+
+# ============ DIFF/EXPORT SETTINGS ============
+# Don't diff database files
+*.db -diff
+*.sqlite -diff
+*.sqlite3 -diff
+
+# Don't diff compiled Python files
+*.pyc -diff
+*.pyo -diff
+*.pyd -diff
+
+# ============ LINGUIST SETTINGS ============
+# Override GitHub language detection
+# (Để GitHub hiểu project là Python, không phải SQL hay HTML)
+*.py linguist-detectable=true
+*.sql linguist-detectable=false
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+# ============ EXPORT-IGNORE ============
+# Exclude files from GitHub archive downloads
+.gitattributes export-ignore
+.gitignore export-ignore
+README.md export-ignore
+LICENSE export-ignore
+requirements.txt export-ignore
+.env.example export-ignore
+*.pdf export-ignore
+docs/ export-ignore
+tests/ export-ignore
+venv/ export-ignore
+__pycache__/ export-ignore
+*.pyc export-ignore
+
+# ============ MERGE STRATEGY ============
+# Always use 'ours' for these files (no merge conflicts)
+package-lock.json merge=ours
+yarn.lock merge=ours
+requirements.txt merge=ours

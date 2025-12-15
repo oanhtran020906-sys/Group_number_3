@@ -1,0 +1,42 @@
+# ============================================
+# Employee Information Manager
+# Python Dependencies
+# ============================================
+
+# ========= CORE DEPENDENCIES =========
+python>=3.8, <3.12
+
+# ========= DATABASE =========
+mysql-connector-python==8.1.0
+SQLAlchemy==2.0.23
+pymysql==1.1.0
+
+# ========= GUI & VISUALIZATION =========
+tkinter  # Usually comes with Python
+ttkthemes==3.2.2
+matplotlib==3.8.2
+seaborn==0.13.0
+pandas==2.1.4
+numpy==1.26.2
+
+# ========= UTILITIES =========
+python-dotenv==1.0.0
+pyyaml==6.0.1
+python-dateutil==2.8.2
+pytz==2023.3
+
+# ========= TESTING =========
+pytest==7.4.3
+pytest-qt==4.2.0
+pytest-cov==4.1.0
+unittest2==1.1.0
+
+# ========= CODE QUALITY =========
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+pre-commit==3.5.0
+
+# ========= DEVELOPMENT TOOLS =========
+ipython==8.17.2
+jupyter==1.0.0
