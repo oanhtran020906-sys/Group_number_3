@@ -439,7 +439,7 @@ employee-info-manager/
 
 ## 🔗 Quick Links
 
-- 📂 GitHub Repository: github.com/heavy/employee-info-manager
+- 📂 GitHub Repository: [GitHub Respository](https://github.com/Buithaoaineu/Group_number_3)
 - 🎥 Demo Video: [YouTube Demo](https://youtu.be/MmStJCzWH4w?si=LT9qPqY3Dzx7Qs9x)
 - 📄 Full Report: [Download PDF Report](employee_info_manager/documentary/report.pdf) 
 - 🎓 Presentation Slides: [Download PDF Slides](employee_info_manager/documentary/slides.pdf)
